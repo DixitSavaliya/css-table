@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css table</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+	<div id="loader"></div>
+	<div style="display:none;" id="myDiv" class="animate-bottom">
+		<form>
+			<div class="divTable">
+				<h1 style="text-align: center;"><i class="fas fa-user"></i> EMPLOYEE DETAILS</h1>
+				<div>
+					<div class="table" align="left">Firstname</div>
+					<div  class="table">Lastname</div>
+					<div  class="table">Email</div>
+				</div>
+				<div class="row">
+					<div class="table">Dixit</div>
+					<div class="table">Savaliya</div>
+					<div class="table">dixit20051998@gmail.com</div>
+				</div>
+				<div class="row">
+					<div class="table">vishal</div>
+					<div class="table">pankhiya</div>
+					<div class="table">vishal@gmail.com</div>
+				</div>
+				<div class="row">
+					<div class="table">raj</div>
+					<div class="table">gohel</div>
+					<div class="table">raj@gmail.com</div>
+				</div>
+
+			</div>
+		</form>
+	</div>
+
+	<script>
+		var myVar;
+
+		function myFunction() {
+			myVar = setTimeout(showPage, 3000);
+		}
+
+		function showPage() {
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("myDiv").style.display = "block";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.divTable
+{
+    display:  table;
+    width:auto;
+    background-color:#16bfaf;
+    border:1px solid  #666666;
+    border-spacing:15px;
+    margin: 150px;
+    left:0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    margin-left: 325px;
+
+
+}
+
+.row
+{
+   display:table-row;
+   width:auto;
+}
+
+.table
+{
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    width:200px;
+    background-color:#dee3ff;
+    padding: 10px;
+}
+#loader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  content: url('../images/b1.gif');
+
+  
+}
+#myDiv {
+  display: none;
+}
+body{
+
+  background-color: lightblue;
+}
